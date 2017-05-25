@@ -37,9 +37,9 @@ public class CompanyApi {
 	}
 
 	@RequestMapping(value = "/add", method = RequestMethod.POST)
-	public void addCompany(HttpServletRequest request,
+	public Company addCompany(HttpServletRequest request,
 			HttpServletResponse response) {
-		companyService.addCompany(request, response);
+		return companyService.addCompany(request, response);
 	}
 
 	@RequestMapping(value = "/search", method = RequestMethod.POST)
@@ -49,9 +49,9 @@ public class CompanyApi {
 	}
 
 	@RequestMapping(value = "/update", method = RequestMethod.POST)
-	public void updateCompany(HttpServletRequest request,
+	public Company updateCompany(HttpServletRequest request,
 			HttpServletResponse response) {
-		companyService.updateCompany(request, response);
+		return companyService.updateCompany(request, response);
 	}
 
 	@RequestMapping(value = "/delete", method = RequestMethod.POST)

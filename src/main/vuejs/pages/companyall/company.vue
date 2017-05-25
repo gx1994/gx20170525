@@ -147,7 +147,7 @@
       }
     },
     created() {
-      let url = './api/company/add'
+      let url = './api/company/'
       this.$http.get(url).then((response) => {
 //       if (response.body.errno === ERR_OK) {
  //         this.companytable = response.body.data
