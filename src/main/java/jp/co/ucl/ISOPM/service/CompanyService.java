@@ -2,7 +2,7 @@ package jp.co.ucl.ISOPM.service;
 
 import jp.co.ucl.ISOPM.dao.CompanyDao;
 import jp.co.ucl.ISOPM.entity.Company;
-import net.minidev.json.JSONObject;
+//import net.minidev.json.JSONObject;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFCellStyle;
@@ -35,7 +35,7 @@ public class CompanyService {
 
 	/**
 	 * list all company
-	 * 
+	 *
 	 * @return
 	 */
 	public List<Company> listAll() {
@@ -50,7 +50,7 @@ public class CompanyService {
 		return companyDao.getCompanyById(id);
 	}
 
-	public void addCompany(HttpServletRequest request,
+	public Company addCompany(HttpServletRequest request,
 			HttpServletResponse response) {
 		Company company = new Company();
 		company.setCompany_name(request.getParameter("company_name"));
@@ -66,27 +66,28 @@ public class CompanyService {
 			result = companyDao.addSellerCompany(company.getCompany_id());// 获取companyDao中的company_id
 		}
 
-		JSONObject obj = new JSONObject();
-		Writer writer = null;
-		try {
-			obj.put("result", result + "");
-			writer = response.getWriter();
-			writer.write(obj.toString());
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				if (writer != null) {
-					writer.close();
-				}
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
+//		JSONObject obj = new JSONObject();
+//		Writer writer = null;
+//		try {
+//			obj.put("result", result + "");
+//			writer = response.getWriter();
+//			writer.write(obj.toString());
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		} finally {
+//			try {
+//				if (writer != null) {
+//					writer.close();
+//				}
+//			} catch (IOException e) {
+//				e.printStackTrace();
+//			}
+//		}
+    return company;
 
 	}
 
-	public void updateCompany(HttpServletRequest request,
+	public Company updateCompany(HttpServletRequest request,
 			HttpServletResponse response) {
 
 		Company company = new Company();
@@ -99,23 +100,24 @@ public class CompanyService {
 
 		int result = companyDao.updateCompany(company);
 
-		JSONObject obj = new JSONObject();
-		Writer writer = null;
-		try {
-			obj.put("result", result + "");
-			writer = response.getWriter();
-			writer.write(obj.toString());
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				if (writer != null) {
-					writer.close();
-				}
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
+//		JSONObject obj = new JSONObject();
+//		Writer writer = null;
+//		try {
+//			obj.put("result", result + "");
+//			writer = response.getWriter();
+//			writer.write(obj.toString());
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		} finally {
+//			try {
+//				if (writer != null) {
+//					writer.close();
+//				}
+//			} catch (IOException e) {
+//				e.printStackTrace();
+//			}
+//		}
+    return company;
 
 	}
 
@@ -130,23 +132,23 @@ public class CompanyService {
 			deleteResult = companyDao.deleteSellerCompany(company_id);
 		}
 
-		JSONObject obj = new JSONObject();
-		Writer writer = null;
-		try {
-			obj.put("result", deleteResult + "");
-			writer = response.getWriter();
-			writer.write(obj.toString());
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			try {
-				if (writer != null) {
-					writer.close();
-				}
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
+//		JSONObject obj = new JSONObject();
+//		Writer writer = null;
+//		try {
+//			obj.put("result", deleteResult + "");
+//			writer = response.getWriter();
+//			writer.write(obj.toString());
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		} finally {
+//			try {
+//				if (writer != null) {
+//					writer.close();
+//				}
+//			} catch (IOException e) {
+//				e.printStackTrace();
+//			}
+//		}
 
 	}
 
