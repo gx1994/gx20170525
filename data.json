@@ -1,0 +1,209 @@
+{
+    "staff": [
+        {
+            "staffId": "001", 
+            "staffName": "高雪", 
+            "staffTel": "111", 
+            "staffMail": "111@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "002", 
+            "staffName": "张三", 
+            "staffTel": "112", 
+            "staffMail": "222@gmail.com",
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "003", 
+            "staffName": "李四", 
+            "staffTel": "113", 
+            "staffMail": "333@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "004", 
+            "staffName": "王二", 
+            "staffTel": "114", 
+            "staffMail": "444@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "005", 
+            "staffName": "李娜", 
+            "staffTel": "115", 
+            "staffMail": "555@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "006", 
+            "staffName": "朱思", 
+            "staffTel": "116", 
+            "staffMail": "666@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "007", 
+            "staffName": "李白", 
+            "staffTel": "117", 
+            "staffMail": "777@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "008", 
+            "staffName": "王伟", 
+            "staffTel": "118", 
+            "staffMail": "888@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "009", 
+            "staffName": "田空", 
+            "staffTel": "119", 
+            "staffMail": "999@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "010", 
+            "staffName": "刘鑫", 
+            "staffTel": "120", 
+            "staffMail": "1110@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "011", 
+            "staffName": "悟空", 
+            "staffTel": "121", 
+            "staffMail": "1221@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "012", 
+            "staffName": "八戒", 
+            "staffTel": "122", 
+            "staffMail": "1332@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "013", 
+            "staffName": "王晓", 
+            "staffTel": "123", 
+            "staffMail": "1443@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "014", 
+            "staffName": "刘是", 
+            "staffTel": "124", 
+            "staffMail": "1554@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "015", 
+            "staffName": "邓宇", 
+            "staffTel": "125", 
+            "staffMail": "1665@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "016", 
+            "staffName": "王看", 
+            "staffTel": "126", 
+            "staffMail": "1776@gmail.com", 
+            "company": "ucl"
+        }, 
+        {
+            "staffId": "017", 
+            "staffName": "李宇", 
+            "staffTel": "127", 
+            "staffMail": "1887@gmail.com", 
+            "company": "ucl"
+        }
+    ],
+    "company": [
+        {
+            "buy_from_company_id": "10-001",
+            "sale_to_company_id": "20-001",
+            "company_name": "巨帅气的被子",
+            "company_tel": "4006666666",
+            "project_amount": "想要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-002",
+            "sale_to_company_id": "20-002",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "能要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-003",
+            "sale_to_company_id": "20-003",
+            "company_name": "巨搞笑的被子",
+            "company_tel": "4007777777",
+            "project_amount": "要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-004",
+            "sale_to_company_id": "20-004",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "想要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-005",
+            "sale_to_company_id": "20-005",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "想要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-006",
+            "sale_to_company_id": "20-006",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "想要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-007",
+            "sale_to_company_id": "20-007",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "想要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-008",
+            "sale_to_company_id": "20-008",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "想要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-009",
+            "sale_to_company_id": "20-009",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "想要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-010",
+            "sale_to_company_id": "20-010",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "想要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-011",
+            "sale_to_company_id": "20-011",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "想要几个有几个"
+        },
+        {
+            "buy_from_company_id": "10-012",
+            "sale_to_company_id": "20-012",
+            "company_name": "巨可爱的被子",
+            "company_tel": "4008888888",
+            "project_amount": "想要几个有几个"
+        }
+      ]
+    }

@@ -1,0 +1,135 @@
+/*页面主要部分的样式 */
+.container {
+  width: auto;
+  margin-left: 245px;
+}
+.breadcrumb {
+  list-style: none;
+  background-color: #E3E3E3;
+  height: 30px;
+  padding: 5px 0 5px 5px;
+}
+.breadcrumb li a {
+  float: left;
+  margin-right: 20px;
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  padding: 10px 15px 0 15px;
+  text-align: center;
+  background-color: #3498db;
+  color: #fff;
+  line-height: 15px;
+}
+.breadcrumb li a:after{
+  content: "";
+  border-left: 15px solid #3498db;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  right: -15px;
+  top: 0;
+}
+.breadcrumb li a:before{
+  content: "";
+  border-top: 15px solid #3498db;
+  border-bottom: 15px solid #3498db; 
+  border-left: 15px solid transparent;
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+.breadcrumb li:first-child a{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.breadcrumb li:first-child a:before{
+  display: none;
+}
+.breadcrumb li:last-child a{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.breadcrumb li:last-child a:after{
+  display: none;
+}
+
+.header {
+  width: 100%;
+  height: 75px;
+  background:#4db3ff;
+}
+.headcontainer {
+  margin: auto 0;
+}
+.headcontainer .logo {
+  float: left;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 80px;
+  width: 12%;
+}
+.headcontainer .logo a {
+  display: block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  height: 0;
+  width: 60px;
+  padding-top: 50%;
+  margin-left: 100px;
+  background: url(../images/logo.png) no-repeat center center;
+  background-size: contain;
+  line-height: 0;
+}
+.headcontainer ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.headcontainer li {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  border-right: 1px solid #bbb;
+}
+.header :last-child {
+  border-right: none;
+}
+.headcontainer li a {
+  display: block;
+  color: #fff;
+  padding: 0 20px;
+}
+.headcontainer li a:hover:not(.active) {
+  background-color: #999999;
+  color: white;
+}
+.search {
+    text-align: left;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    padding-left: 5px;
+  }
+  .search .searchtitle {
+    display: block;
+    height: 15px;
+    border-bottom: 1px dashed #C8C7C7;
+    line-height: 15px;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+  }
+  .search .condition {
+    border-top: 1px dashed #C8C7C7;
+    padding-top: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+  }
+  .search .conditionform {
+    height: 45px;
+  }
