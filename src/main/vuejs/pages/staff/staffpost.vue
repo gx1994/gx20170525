@@ -32,8 +32,7 @@
       </el-form-item>
       <el-form-item label="所属公司" prop="company">
         <el-select v-model="form.company" placeholder="请选择员工所属公司" >
-          <el-option
-            v-for="item in companyoptions"
+          <el-option v-for="item in companyoptions"
             :label="item.label"
             :value="item.value">
           </el-option>

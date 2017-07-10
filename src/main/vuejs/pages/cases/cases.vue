@@ -8,8 +8,8 @@
 </template>
 
 <script type="text/javascript">
-  import PMsearchform from 'components/projectManagement/projectMsearchform'
-  import Pcasepage from 'components/projectManagement/projectMpage'
+  import PMsearchform from 'components/cases/projectMsearchform'
+  import Pcasepage from 'components/cases/projectMpage'
   export default {
     components: {
       PMsearchform,

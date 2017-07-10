@@ -19,8 +19,8 @@
 </template>
 
 <script type="text/javascript">
-  import vsearchform1 from 'components/personalPManagement/personalPMsearchform1'
-  import vtable1 from 'components/personalPManagement/personalPMtable1'
+  import vsearchform1 from 'components/assignment/personalPMsearchform1'
+  import vtable1 from 'components/assignment/personalPMtable1'
   export default {
     components: {
       vsearchform1,

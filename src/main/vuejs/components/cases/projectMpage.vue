@@ -12,8 +12,8 @@
 </div>
 </template>
 <script type="text/javascript">
-  import PMtable from 'components/projectmanagement/projectMtable'
-  import PMpages from 'components/projectmanagement/projectMpagination'
+  import PMtable from 'components/cases/projectMtable'
+  import PMpages from 'components/cases/projectMpagination'
 
   export default {
     components: {

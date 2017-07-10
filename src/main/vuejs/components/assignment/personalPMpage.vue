@@ -12,8 +12,8 @@
 </div>
 </template>
 <script type="text/javascript">
-  import utable from 'components/personalPManagement/personalPMtable'
-  import pages from 'components/personalPManagement/personalPMpagination'
+  import utable from 'components/assignment/personalPMtable'
+  import pages from 'components/assignment/personalPMpagination'
 
   export default {
     components: {

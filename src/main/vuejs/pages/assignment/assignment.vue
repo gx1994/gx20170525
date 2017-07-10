@@ -8,8 +8,8 @@
 </template>
 
 <script type="text/javascript">
-  import vcasepage from 'components/personalPManagement/personalPMpage'
-  import vsearchform from 'components/personalPManagement/personalPMsearchform'
+  import vcasepage from 'components/assignment/personalPMpage'
+  import vsearchform from 'components/assignment/personalPMsearchform'
   
   export default {
     components: {

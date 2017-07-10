@@ -11,7 +11,7 @@
     </div>
 </template>
 <script type="text/javascript">
-  import projectMincreaseP from 'components/projectManagement/projectMincreaseP'
+  import projectMincreaseP from 'components/cases/projectMincreaseP'
   export default {
     components: {
       projectMincreaseP
